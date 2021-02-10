@@ -1,0 +1,29 @@
+.form{
+    width: 300px;
+    max-width: 90%;
+    height: 500px;
+    max-height: 100%;
+    margin-left:75%;
+    padding: 10px;
+    top:-10px;
+    position: fixed;
+    z-index: 10;
+    background-color: rgba(163, 119, 119, 0.856);
+    border-bottom-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+}
+ span{
+    color:black;
+}
+.signUp{
+    border-radius: 5px;
+}
+.close{
+    margin-top:80px;
+    margin-left: 60px;
+}
+@keyframes ani{
+    0%{
+        
+    }
+}

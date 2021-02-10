@@ -1,0 +1,32 @@
+.nav-wrapper{
+	padding: 0 1rem;
+	background-color: rgba(0, 0, 0, 0.335);
+}
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@200&display=swap');
+.brand-logo{
+    font-family: 'Josefin Slab', serif;
+}
+.no{
+	display: none;
+}
+.miniNavbar{
+	position: fixed;
+	z-index:4;
+	top:68px;
+	left:75%;
+	width: 150px;
+	max-width:35%;
+	height: 112px;
+	max-width: 80%;
+	background-color: rgba(0, 0, 0, 0.637);
+}
+.miniA{
+	width: 150px;
+	height: 50px;
+	padding-left: 50px;
+}

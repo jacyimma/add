@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;  
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+  .container{
+    padding-bottom: 1rem;
+    align-items: flex-end;
+  }
+  .page{
+    padding-top: 5px;
+    background-color: rgba(0, 0, 0, 0.335);
+  }
+ 
