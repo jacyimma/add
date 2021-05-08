@@ -9,6 +9,7 @@ import Category from './components/Category'
 import Recipe from './components/Recipe'
 import {BrowserRouter as Router, Route , Switch} from 'react-router-dom'
 import NotFound from './pages/NotFound'
+import Product from './pages/Product'
 export default function App() {
   return (
  <Router basename='/food'>
@@ -21,6 +22,7 @@ export default function App() {
         <Route path='/category/:name' component={Category}/>
         <Route path='/meal/:id' component={Recipe}/>
         <Route component={NotFound}/>
+        <Route path='/product' component={Product}/>
        </Switch>
     </main>
     <Footer/>
